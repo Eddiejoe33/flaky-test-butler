@@ -1,0 +1,37 @@
+# Flaky Test Butler
+
+**Automated diagnostics for flaky test failures**  
+
+---
+
+## Problem
+
+In real-world QA, **30–40% of automated test failures are “false positives”** caused by:
+
+- Expired test logins  
+- Full disk space  
+- API rate limits  
+- Changed test data  
+
+Engineers waste hours manually triaging these failures instead of finding real bugs.
+
+---
+
+## Solution
+
+**Flaky Test Butler**:
+
+- Intercepts every test failure  
+- Performs **automated diagnostics**  
+- Outputs a **probable root cause** before human intervention  
+
+It runs entirely in the **terminal**, simulating a real QA automation workflow.
+
+---
+
+## Features
+
+- List all available tests:
+
+```bash
+qa-butler list
