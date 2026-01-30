@@ -1,37 +1,45 @@
-# QA Butler — A Flutter Butler Powered by Serverpod
-
-**Automated diagnostics for flaky test failures**
-
----
-
-## Problem
-
-In real-world QA, **30–40% of automated test failures are “false positives”** caused by:
-
-- Expired test logins  
-- Full disk space  
-- API rate limits  
-- Changed test data  
-
-Engineers waste hours manually triaging these failures instead of finding real bugs.
-
----
-
-## Solution
-
-**QA Butler**:
-
-- Intercepts test failures  
-- Performs **automated diagnostics**  
-- Outputs a **probable root cause** before human intervention  
-
-This prototype runs entirely in the **terminal**, simulating a real QA automation workflow.
-
----
-
-## Features
-
-- List all available tests:
-
-```bash
+QA Butler — Your QA Automation Assistant Powered by Flutter + Serverpod
+Automated diagnostics for flaky test failures — your personal assistant for QA
+Problem
+In real-world QA, 30–40% of automated test failures are false positives, caused by:
+Expired test logins
+Full disk space
+API rate limits
+Changed test data
+QA engineers waste h8ours manually triaging these failures instead of focusing on real bugs.
+Solution
+QA Butler is a digital assistant for QA engineers that:
+Intercepts test failures
+Runs automated diagnostics powered by Serverpod
+Outputs a probable root cause before human intervention
+Think of it as a personal assistant that helps engineers triage flaky tests quickly, saving time and reducing frustration.
+Features
+List all available tests
+Copy code
+Bash
 qa-butler list
+Analyze test failures
+Copy code
+Bash
+qa-butler analyze
+Performs automated diagnostics and identifies likely causes of failures.
+Easy setup with Serverpod backend
+Handles the heavy lifting of data processing, simulating a real-world QA automation workflow.
+Terminal prototype now, Flutter UI next
+While the current prototype runs in the terminal, future versions will feature a Flutter dashboard to monitor tests and results visually.
+How to Run
+Clone the repository:
+Copy code
+Bash
+git clone https://github.com/Eddiejoe33/flaky-test-butler.git
+Navigate to the project folder:
+Copy code
+Bash
+cd flaky-test-butler
+Run the CLI commands:
+Copy code
+Bash
+qa-butler list
+qa-butler analyze
+Impact
+QA Butler reduces time spent on false positives, allowing engineers to focus on real bugs. By automating diagnostics, it acts as a reliable assistant for QA teams, helping streamline workflows and improve productivity.
