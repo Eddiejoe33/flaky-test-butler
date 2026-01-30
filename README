@@ -1,6 +1,6 @@
-# Flaky Test Butler
+# QA Butler — A Flutter Butler Powered by Serverpod
 
-**Automated diagnostics for flaky test failures**  
+**Automated diagnostics for flaky test failures**
 
 ---
 
@@ -19,24 +19,19 @@ Engineers waste hours manually triaging these failures instead of finding real b
 
 ## Solution
 
-**Flaky Test Butler**:
+**QA Butler**:
 
-- Intercepts every test failure  
+- Intercepts test failures  
 - Performs **automated diagnostics**  
 - Outputs a **probable root cause** before human intervention  
 
-It runs entirely in the **terminal**, simulating a real QA automation workflow.
+This prototype runs entirely in the **terminal**, simulating a real QA automation workflow.
 
 ---
 
 ## Features
 
+- List all available tests:
+
 ```bash
-# List all tests
 qa-butler list
-
-# Run diagnostics for one test
-qa-butler run 1
-
-# Run diagnostics for all tests
-qa-butler run all
