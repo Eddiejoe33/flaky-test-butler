@@ -31,7 +31,12 @@ It runs entirely in the **terminal**, simulating a real QA automation workflow.
 
 ## Features
 
-- List all available tests:
-
 ```bash
+# List all tests
 qa-butler list
+
+# Run diagnostics for one test
+qa-butler run 1
+
+# Run diagnostics for all tests
+qa-butler run all
